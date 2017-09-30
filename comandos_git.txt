@@ -1,4 +1,25 @@
 Comandos de consola para github
 
+
+1)Primero se debe bajar git
+
+ sudo apt install git
+ 
+
+2)Configuracion del git 
+
+git config --global user.name "minombre_de_usuario_de_github"
+git config --global user.email "mi_email" 
+
+3) Crear public key y luego pegarla en ssh dentro de github.com
+ssh-keygen
+
+4)git init   -> Se utiliza para iniciar el git.Debe usarse dentro de la carpeta local de la pc.
+  git add .  -> Sube archivo
+  git commit -m " Comentario"
+  git push origin master   -> empuja y lo sube a github
+
+     
 git status -estatus
+git 
 
