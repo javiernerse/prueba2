@@ -1,0 +1,4 @@
+Comandos de consola para github
+
+git status -estatus
+
